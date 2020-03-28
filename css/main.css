@@ -1,0 +1,1121 @@
+/* Custom Font Define */
+@font-face {
+    font-family: Museo;
+    src: url(Museo300-Regular.otf);
+}
+
+/* Bootstrap */
+.navbar-light .navbar-nav .nav-link {
+    color: #ccc !important;
+}
+
+/*navbar hover */
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #111e48 !important;
+}
+
+.login-link {
+    margin-top: 3px;
+}
+
+.login-link a {
+    color: #ccc;
+}
+
+.login-link a:hover {
+    color: #111e48;
+}
+
+/*Search Box*/
+.search_input {
+    position: relative;
+    display: block;
+    padding: 5px 8px;
+    border: transparent;
+    background: #000;
+    
+}
+button.btn-search{
+    background: transparent;
+    border: transparent;
+    color: #fff;
+    position: absolute;
+    top: 36px;
+    right: 3%;
+}
+
+/*
+.btn-search{
+    background: transparent;
+    border: 2px solid transparent;
+}
+
+.btn-search:before {
+    content: "\f002";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 20%;
+    right: 6%;
+    color: #aca7a7;
+}
+*/
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Black color */
+.black {
+    color: #000;
+}
+
+/* Three dot or line CSS */
+.separator {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.separator:before {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background: #1c317a;
+    margin-right: 10px;
+}
+
+.separator:after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background: #1c317a;
+    margin-left: 10px;
+}
+
+.separator .dot {
+    background: #d92726;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin: 4px;
+    display: inline-block;
+}
+
+.separator .dot:first-child {
+    background: #263c80;
+}
+
+.separator .dot:last-child {
+    background: #263c80;
+}
+
+
+
+/* White Color Three dot and line*/
+.white-color:before {
+    background: #fff;
+}
+
+.white-color:after {
+    background: #fff;
+}
+
+.white-color .dot {
+    background: #fff;
+}
+
+.white-color .dot:first-child {
+    background: #fff;
+}
+
+.white-color .dot:last-child {
+    background: #fff;
+}
+
+
+/* background Video CSS */
+.video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+/* Header Section CSS */
+header {
+    background: rgba(0, 0, 0, .4);
+    height: 100vh;
+}
+
+
+
+
+/* Hero Section */
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #edf0f1;
+    width: 100%;
+}
+
+.hero h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    word-spacing: 5px;
+    line-height: 35px;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+
+.hero h1 {
+    line-height: 55px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+/* apply now btn css */
+.btn-apply{
+    position: absolute;
+    bottom: 5%;
+    background: #fff;
+    color: #000;
+}
+
+/* about info */
+p.about-info{
+    width: 73%;
+    text-align: center;
+    margin: 20px auto;
+
+}
+/* Welcome CSS */
+section.welcome {
+    padding: 6% 0;
+    text-align: center;
+    background: url(../images/content-bg.jpg)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Museo;
+    color: #263c80;
+    font-weight: normal;
+}
+
+h1.headline {
+    line-height: 36px;
+    padding: 8px;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+section.welcome img {
+    padding: 10px 35px;
+}
+
+
+
+/* Student Say */
+section.student-say {
+    position: relative;
+    padding: 20px;
+    color: #edf0f1;
+    font-family: Museo;
+    font-weight: normal;
+}
+
+.first {
+    background: #2aabe4;
+}
+
+.second {
+    background: #f7c120;
+}
+
+.third {
+    background: #de3b3c;
+}
+
+.fourth {
+    background: #40b463;
+}
+
+
+
+.student-img {
+    position: absolute;
+    top: -85px;
+    width: 75%;
+}
+
+.student-says {
+    font-family: Museo;
+    margin-top: 20px;
+}
+
+.student-says:before {
+    content: " ❝ ";
+    font-size: 200px;
+    position: absolute;
+    z-index: 73;
+    left: -59px;
+    top: -102px;
+    opacity: 0.1;
+    color: #000;
+}
+
+.student-says:after {
+    content: " ❞ ";
+    font-size: 115px;
+    position: absolute;
+    z-index: 73;
+    right: -30px;
+    bottom: -50px;
+    opacity: 0.1;
+    color: #000;
+}
+
+.student-says P {
+    font-size: 26px;
+    font-family: Museo;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.student-detail {
+    text-align: right;
+    color: #000;
+    padding: 10px;
+    font-family: Museo;
+    margin-top: -10px;
+}
+
+.student-detail strong {
+    font-weight: 600;
+}
+
+
+
+/* Program CSS */
+section#program {
+    padding: 6% 0%;
+    text-align: center;
+    background: url(../images/bg2.jpg)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Museo;
+    color: #dddddd;
+}
+
+section#program.description {
+    margin: auto;
+    line-height: 32px;
+}
+
+/* all program */
+.all-program {
+    margin-top: 40px;
+}
+
+.all-program h1 {
+    font-size: 24px;
+    margin: 20px 5px;
+}
+.program-item a{
+    color: rgb(186, 183, 183);
+}
+.program-item a:hover{
+    color: #fff;
+}
+.all-program a h1{
+    color: rgb(186, 183, 183);
+}
+.all-program a h1:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  CSS */
+section#opportunities {
+    padding: 6% 0%;
+    text-align: center;
+    background: url(../images/bg3.jpg)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Museo;
+    color: #808080;
+}
+
+/* all college */
+.all-college {
+    margin-top: -100px;
+    margin-bottom: -720px;
+}
+
+.college {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    background: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.college img {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.college img:hover{
+    transform: scale(1.5);
+    /* opacity: .5; */
+}
+
+.college:first-child {
+    top: 20%;
+    left: 0px;
+    border: 2px solid #f1bab8;
+}
+
+.college:nth-child(2) {
+    top: 2%;
+    left: 14%;
+    border: 2px solid #a4dcf5;
+}
+
+.college:nth-child(3) {
+    top: -4%;
+    left: 34%;
+    border: 2px solid #00bce6;
+}
+
+.college:nth-child(4) {
+    top: 0%;
+    left: 43%;
+    border: 2px solid #000075;
+}
+
+.college:nth-child(5) {
+    top: 3%;
+    left: 53%;
+    border: 2px solid #000075;
+}
+
+.college:nth-child(6) {
+    top: -3%;
+    left: 68%;
+    border: 2px solid #1e6b99;
+}
+
+.college:nth-child(7) {
+    top: -13%;
+    left: 83%;
+    border: 2px solid #ff0000;
+}
+
+.college:nth-child(8) {
+    top: -30%;
+    left: 89%;
+    border: 2px solid #3434a9;
+}
+
+.college:nth-child(9) {
+    top: -48%;
+    left: 81%;
+    border: 2px solid #a0957f;
+}
+
+.college:nth-child(10) {
+    top: -59%;
+    left: 67%;
+    border: 2px solid #7cc50a;
+}
+
+.college:nth-child(11) {
+    top: -63%;
+    left: 52%;
+    border: 2px solid #ff0103;
+}
+
+.college:nth-child(12) {
+    top: -51%;
+    left: 29%;
+    border: 2px solid #febd11;
+}
+
+.college:last-child {
+    top: -59%;
+    left: 9%;
+    border: 2px solid #363636;
+}
+
+/* news CSS */
+.news {
+    overflow: hidden;
+}
+
+.news-item {
+    overflow: hidden;
+}
+
+.news-item img {
+    width: 100%;
+    height: 100px;
+}
+
+
+
+
+section.news-event {
+    padding: 6% 0%;
+    background: #fff;
+    color: #000;
+}
+
+section.news-event h1.headline {
+    color: #0088a9;
+    font-family: Museo;
+    text-align: center;
+}
+
+
+/* Recent News */
+.recent-news h1 {
+    font-size: 18px;
+    color: #0088a9;
+    font-family: Museo;
+    margin-bottom: 35px;
+}
+
+.recent-news h1:before {
+    content: '';
+    width: 40px;
+    height: 3px;
+    background: #de3b3c;
+    position: absolute;
+    top: 26px;
+}
+
+.features-news {
+    overflow: hidden;
+}
+
+.img-box {
+    overflow: hidden;
+    width: 100%;
+    height: 130px;
+}
+
+.features-news .img-box img {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.features-news .img-box img:hover {
+    transform: scale(1.3);
+    opacity: .5;
+}
+
+.features-news h5 {
+    font-size: 13px;
+    margin: 8px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+
+/* News and Event CSS */
+.news-event-detail {
+    margin-top: 20px;
+}
+
+.news-detail {
+    color: #a9a9a9;
+    margin: 3px;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.news-date {
+    font-size: 12px;
+    font-style: italic;
+    color: #d0cece;
+    margin-bottom: 5px;
+}
+
+.news-item {
+    margin-bottom: 15px;
+}
+
+.news-item-img {
+    width: 80px;
+    height: 75px;
+    overflow: hidden;
+    margin-right: 8px;
+}
+
+.news-item-img img {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    /* opacity: .7; */
+}
+.news-item-img img:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}
+
+a h5.news-title {
+    color: #2f2f2f;
+}
+a h5.news-title:hover{
+    color: #111e48;
+}
+.news-item h5 {
+    font-size: 13px;
+    margin: 8px 0 3px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d7d7d7;
+}
+a.news-item h5 {
+    font-size: 13px;
+    margin: 8px 0 3px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.news-title a{
+    color: #2f2f2f;
+}
+.news-title a:hover{
+    color: #111e48;
+}
+/* recent-events */
+
+/* Responsive images  */
+.image-resize{
+    object-fit: cover;
+    object-position: center center;
+}
+
+.recent-events h1 {
+    font-size: 18px;
+    color: #0088a9;
+    font-family: Museo;
+    margin-bottom: 35px;
+}
+
+.recent-events h1:before {
+    content: '';
+    width: 40px;
+    height: 3px;
+    background: #de3b3c;
+    position: absolute;
+    top: 26px;
+}
+
+.event-item {
+    margin-bottom: 15px;
+}
+
+.event-item-img {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    margin-right: 8px;
+}
+
+.event-item-img img {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.event-item-img img:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}
+
+.event-item h5 {
+    font-size: 13px;
+    margin: 8px 0 3px;
+    padding-bottom: 8px;
+}
+
+
+/* Upcoming events */
+.upcoming-event {
+    border-top: 1px solid #d7d7d7;
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+.upcoming-event h1 {
+    font-size: 18px;
+    color: #0088a9;
+    font-family: Museo;
+    margin-bottom: 35px;
+}
+
+.upcoming-event h1:before {
+    content: '';
+    width: 40px;
+    height: 3px;
+    background: #de3b3c;
+    position: relative;
+    top: 26px;
+}
+
+.event-item-date {
+    width: 60px;
+    height: 65px;
+    background: #febd11;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    margin-right: 10px;
+    color: #fff;
+
+}
+
+section.social-media{
+    padding: 6% 0%;
+    background: url(../images/social_bg.jpg)no-repeat center right;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    font-family: 'Roboto', sans-serif;
+    
+    color: #ffffff;
+}
+.social-media .title-section{
+    font-family: Museo;
+    margin-bottom: 40px;
+}
+
+.social-media .gallery {
+   position: relative;
+   height: 100%;
+   width: 100%;
+   margin: auto;
+   padding: 0px 0;
+   display: grid;
+   grid-template-columns: auto auto auto auto auto;
+   grid-gap: 2vmin;
+   grid-auto-flow: dense;
+}
+.social-media .gallery .img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.social-media .gallery .img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.social-media .gallery .img:first-child{
+    width: 100%;
+    height: 280px;
+    position: relative;
+}
+.social-media .gallery .img:nth-child(2){
+    height: 210px;
+}
+.social-media .gallery .img:nth-child(3){
+    height: 280px;
+}
+.social-media .gallery .img:nth-child(4){
+    height: 210px;
+}
+.social-media .gallery .img:nth-child(5){
+    height: 280px;
+}
+.social-media .gallery .img:nth-child(6){
+    height: 210px;
+}
+.social-media .gallery .img:nth-child(7){
+    height: 280px;
+    margin-top: -70px;
+}
+.social-media .gallery .img:nth-child(8){
+    height: 210px;
+}
+.social-media .gallery .img:nth-child(9){
+    height: 280px;
+    margin-top: -70px;
+}
+.social-media .gallery .img:nth-child(10){
+    height: 210px;
+}
+.img-info {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+img.profile-pic{
+    width: 20px;
+    height: 20px;
+}
+.info-down{
+    position: absolute;
+    bottom: 0;
+}
+.info-up{
+    position: absolute;
+    top: 0;
+}
+.person-desc{
+    display: block;
+    font-size: 8px;
+    width: 100%;
+    position: absolute;
+    top: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section css */
+footer {
+    width: 100%;
+    background: #fff;
+    font-size: 12px;
+    color: #777777;
+    line-height: 26px;
+    font-family: Museo;
+    font-weight: normal;
+}
+
+/*=== top footer === */
+#top-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 0;
+}
+
+#top-footer h3 {
+    padding-right: 15px;
+    color: #111e48;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.connect-us {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.connect-us h3 {
+    text-transform: uppercase;
+}
+
+.connect-us a img {
+    padding-left: 6px;
+}
+
+.app-download {
+    text-align: right;
+}
+
+.app-download a img {
+    padding-left: 5px;
+    width: 25%;
+    display: inline-block;
+}
+
+/*== Main Footer*/
+.main-footer {
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 25px 0;
+    box-sizing: border-box;
+}
+
+h5.widgetheading {
+    color: #253c80;
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+
+.widget img {
+    width: 50%;
+}
+
+.widget h3 {
+    font-size: 15px;
+    color: #253c80;
+    margin: 15px 0px;
+    /* letter-spacing: -1px; */
+    font-weight: 600;
+}
+
+.link-list li {
+    border-bottom: 1px dotted #d7d7d7;
+    line-height: 28px;
+}
+
+.link-list li:last-child {
+    border-bottom: 1px dotted transparent;
+}
+
+.link-list li a {
+    font-size: 12px;
+    color: #777777;
+    font-family: sans-serif;
+}
+
+.link-list li a:hover {
+    color: #505050;
+}
+
+.widget p {
+    font-family: sans-serif;
+}
+
+
+/* Policy */
+#sub-footer {
+    /*    margin: 10px 0 25px 0;*/
+    padding: 15px 0;
+}
+
+.policy ul {
+    margin-left: -8px;
+}
+
+.policy ul li {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.policy li a {
+    font-size: 12px;
+    color: #777777;
+    font-family: sans-serif;
+}
+
+.copyright {
+    font-size: 12px;
+    padding: 8px 0;
+    text-align: right;
+    font-family: sans-serif;
+}
+
+.copyright a {
+    color: #d92726;
+}
+
+
+/* Responsive video background css */
+@media(min-aspect-ratio:16/9) {
+    .video-background {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-aspect-ratio:16/9) {
+    .video-background {
+        width: auto;
+        height: 100%;
+    }
+}
+
+/* Responsive CSS */
+@media all and (max-width: 1170px) {}
+
+@media all and (max-width: 940px) {
+
+    /*  Footer Section  */
+    #top-footer h3 {
+        display: block;
+
+    }
+
+    .app-download {
+        text-align: left;
+    }
+
+    .copyright {
+        text-align: left;
+    }
+}
+
+@media all and (max-width: 728px) {
+    
+    .collapse.navbar-collapse{
+        background: rgba(37, 60, 128, 0.84);
+        padding: 10px;
+        z-index: 99999;
+    }
+    .hero {
+    z-index: 100;
+}
+.social-media .gallery {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: block;
+    
+ }
+
+.social-media .gallery .img:nth-child(7){
+    margin-top: 0px;
+}
+.social-media .gallery .img:nth-child(8){
+    height: 210px;
+}
+.social-media .gallery .img:nth-child(9){
+
+    margin-top: 0px;
+}
+p.about-info{
+    width: 90%;;
+}
+.all-college {
+    margin: 0px auto;
+}
+button.btn-search {
+    background: transparent;
+    border: transparent;
+    color: #fff;
+    position: absolute;
+    top: 81%;
+    right: 48%;
+}
+.college{
+    position: static;
+    margin: 15px;
+    /* margin-left: 30%; */
+    display: inline-flex;
+
+}
+.student-img {
+    position: static;
+    margin-left: 12%;
+}
+.img-box {
+    width: 100%;
+    height: 200px;
+}
+.event-item-img {
+    width: 100%;
+    height: 200px;
+}
+.student-say p{
+    text-align: center;
+}
+.student-detail{
+    text-align: center;
+}
+.margint-top{
+    margin-top: 10px;
+}
+    /*  Footer Section  */
+    #top-footer h3 {
+        display: block;
+    }
+
+    .app-download {
+        text-align: left;
+    }
+
+    .copyright {
+        text-align: left;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .collapse.navbar-collapse{
+        background: rgba(37, 60, 128, 0.84);
+        padding: 10px;
+        z-index: 99999;
+    }
+    .hero {
+    z-index: 100;
+}
+    /*  Footer Section  */
+    ul.navbar-nav.mx-auto {
+        background: bisque;
+    }
+
+    .student-img {
+        position: static;
+    }
+
+    #top-footer h3 {
+        display: block;
+    }
+
+    .app-download {
+        text-align: left;
+    }
+
+    .copyright {
+        text-align: left;
+    }
+}
